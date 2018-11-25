@@ -1,4 +1,4 @@
- 
+
 body:before {
   content: "";
   display: block;
@@ -8,78 +8,130 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background-image: url("https://image.freepik.com/free-vector/coloured-summer-background_1048-2276.jpg");
+  background-image: url("https://i2.wp.com/www.danieljenkinsacademy.com/wp-content/uploads/2017/11/fantastic-abstract-background-hd.jpg?resize=768%2C512");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#Sponsored {
-	font-family: Impact, Charcoal, sans-serif;
-	color: white;
-	font-size: 30px;
+body {
+	margin: 0;
+}
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+}
+h1 {
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 45px;
+	text-align: center;
+	margin: 0;
+}
+h2 {
+	font-family: Raleway, sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 18px;
+	text-align: center;
+}
+h3 {
+	font-family: Raleway, sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 20px;
+	text-align: center;
+}
+p { 
+	font-family: 'Oswald', sans-serif;
+	line-height: 26px;
+	font-size: 18px;
+	text-align: center;
+}
+nav {
+	background-color: #00A6B3;
+	padding: 20px 0;
+}
+a {
+	margin: 0 20px;
+	color: #FFFFFF;
+}
+/*a:hover {border-bottom: 2px solid transparent;}*/
+a:hover {text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+a:hover{display: inline-block; -webkit-transform:scale(1.3);}
+a:hover{display: inline-block; -moz-transform: scale(1.2); }
+a:hover{display: inline-block; -ms-transform: scale(1.2); }
+a:link {text-decoration: none; color: white;}
+a:active {text-decoration: underline; color: blue;}
+main {
+	width: 850px;
+	margin: 35px auto;
+	align-content: : center;
+	text-align: center;
+}
+img {
+	margin: 40px 8px 0;
+}
+
+/*a.class1 {color:#FFFFFF;}
+a.class1:link  {text-decoration: none; color: #F15B31;}
+a.class1:visited {text-decoration: none; color: #F15B31;}
+a.class1:hover {text-decoration: underline; color: #F15B31;}
+a.class1:active {text-decoration: none; color: #F15B31;}
+
+a.class2 {color:#FFFFFF;}
+a.class2:link  {text-decoration: none; color: #0D2C40;}
+a.class2:visited {text-decoration: none; color: #0D2C40;}
+a.class2:hover {text-decoration: underline; color: #0D2C40;}
+a.class2:active {text-decoration: none; color: #0D2C40;}
+*/
+a.class3 {color: yellow;}
+a.class3:link  {text-decoration: none; color: yellow;}
+a.class3:visited {text-decoration: none; color: yellow;}
+a.class3:hover {text-decoration: none; color: yellow;}
+a.class3:active {text-decoration: none; color: yellow;}
+a.class3: {
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
-
-h1 {
-font-family: Raleway, sans-serif;
-font-weight: 400;
-font-color: #0D2C40;
-letter-spacing: 1px;
-font-size: 45px;
-text-align: center;
-
+footer {
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
 }
-
-h2 {
-font-family: Raleway, sans-serif;
-font-weight: 600;
-font-color: #F15B31;
-letter-spacing: 1px;
-font-size: 18px;
-text-align: center;
+.copyright {
+	font-family: Raleway, sans-serif;
+	float: left;
 }
-
-h3 {
-font-family: Raleway, sans-serif;
-font-weight: 600;
-font-color: #0D2C40;
-letter-spacing: 1px;
-font-size: 20px;
-text-align: center;
+.message {
+	font-family: Raleway, sans-serif;
+	float: right;
 }
-p {
-font-family: 'Oswald', sans-serif;
-line-height: 26px;
-font-size: 18px;
-text-align: center;
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }
 .me {
 	align-content: : center;
 	text-align: center;
 	font-size: 18px;
 }
-.cards {
-	align-content: : center;
-	text-align: center;
-}
-a.class1 {color:#F15B31;}
-a.class1:link  {text-decoration: none; color: #F15B31;}
-a.class1:visited {text-decoration: none; color: #F15B31;}
-a.class1:hover {text-decoration: underline; color: #F15B31;}
-a.class1:active {text-decoration: none; color: #F15B31;}
-
-a.class2 {color:#0D2C40;}
-a.class2:link  {text-decoration: none; color: #0D2C40;}
-a.class2:visited {text-decoration: none; color: #0D2C40;}
-a.class2:hover {text-decoration: underline; color: #0D2C40;}
-a.class2:active {text-decoration: none; color: #0D2C40;}
-
-a.class2 {color:yellow;}
-a.class3:link  {text-decoration: none; color: yellow;}
-a.class3:visited {text-decoration: none; color: yellow;}
-a.class3:hover {text-decoration: underline; color: yellow;}
-a.class3:active {text-decoration: none; color: yellow;}
-a.class3: {
+#Sponsored {
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+	font-size: 30px;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
